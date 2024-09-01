@@ -13,6 +13,8 @@ ROS1 Noetic
         self.camera_sub = rospy.Subscriber('/rotated_image', Image, self.camera_callback)
 토픽 이름 변경해주세요
 
+카메라가 오른쪽에 있다는 기준으로 코드를 작성했습니다.
+
 
 ![Screenshot from 2024-07-29 13-55-20](https://github.com/user-attachments/assets/a91bf31b-414f-4efb-8b76-3cfc262e3baf)
 ![Screenshot from 2024-07-29 13-56-35](https://github.com/user-attachments/assets/0c80f77a-4504-4e3d-8035-70481e8ed4df)
